@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'fm-example';
+  title = 'Form example';
+  suggestUserName() {
+    const suggestedName = 'Superuser';
+  }
 }
